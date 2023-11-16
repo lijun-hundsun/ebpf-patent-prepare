@@ -86,6 +86,6 @@ func main() {
 			continue
 		}
 
-		log.Printf("pid: %d\tcomm: %s\n", event.Pid, unix.ByteSliceToString(event.Comm[:]))
+		log.Printf("lijun debug pid: %d\tcomm: %s\n", event.Pid, unix.ByteSliceToString(event.Comm[:]))
 	}
 }
